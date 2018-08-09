@@ -39,6 +39,7 @@ export default {
   methods: {
     updateDate (datas) {
       this.changed_text = 'You selected ' + datas
+      this.$router.push('item-selector')
     }
   }
 }
